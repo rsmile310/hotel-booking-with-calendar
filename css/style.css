@@ -1,0 +1,192 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.timeline_item_cell {
+  width: 32%;
+  font-size: 14px;
+  text-align: center;
+  background-color: #72cc76;
+}
+#status_ready {
+  background-color: light green;
+}
+
+#status_dirty {
+  background-color: orange;
+}
+
+#timeline_status_col {
+  width: 59px;
+  background-color: light green;
+}
+
+.timeline_item_parent {
+  width: 32%;
+  font-size: 14px;
+  text-align: center;
+  background-color: green;
+  color: white;
+
+  vertical-align: top;
+  height: 100% !important;
+  display: inline-block;
+}
+
+.timeline_item_ready {
+  width: 32%;
+  font-size: 14px;
+  text-align: center;
+  background-color: #4bda35;
+  color: white;
+
+  vertical-align: top;
+  height: 100% !important;
+  display: inline-block;
+}
+
+.timeline_item_room {
+  width: 162px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #15AEE3;
+  color: white;
+
+  height: 100px !important;
+  display: inline-block;
+}
+
+.timeline_item_ready {
+  width: 158px;
+  font-size: 14px;
+  text-align: center;
+  background-color: purple;
+  color: white;
+
+  height: 100px !important;
+  display: inline-block;
+}
+
+.timeline_item_separator {
+  background-color: #cecece;
+  width: 1px;
+  height: 100% !important;
+}
+
+.dhx_matrix_scell {
+  text-align: left;
+}
+
+.timeline_item_separator,
+.timeline_item_cell {
+  vertical-align: top;
+  height: 100% !important;
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: top;
+}
+
+.collection_label {
+  z-index: 2;
+}
+
+.room_status {
+  position: relative;
+}
+
+.event_1 {
+  background-color: #ffb74d !important;
+}
+
+.event_2 {
+  background-color: #9ccc65 !important;
+}
+
+.event_3 {
+  background-color: #40c4ff !important;
+}
+
+.event_4 {
+  background-color: #bdbdbd !important;
+}
+
+.booking_status,
+.booking_paid {
+  position: absolute;
+  right: 5px;
+}
+
+.booking_status {
+  top: 2px;
+}
+
+.booking_paid {
+  bottom: 2px;
+}
+
+.dhx_cal_event_line:hover .booking-option {
+  background: none !important;
+}
+
+.timeline_weekend {
+  background-color: #fff9c4;
+}
+
+/* .dhx_cal_event.current_event div {
+  background-color: red !important;
+  color: white !important;
+} */
+
+.color_boxes1 {
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  left: 2em;
+}
+
+.color_boxes2 {
+  position: absolute;
+  top: 0em;
+  font-family: 'Times New Roman', Times, serif;
+  left: 10em;
+}
+.color_boxes1 p,
+.color_boxes2 p {
+  font-size: 12px;
+  line-height: 24px;
+  /* font-weight: normal; */
+  color: #848484;
+  padding: 0;
+  margin: 0;
+}
+
+.color_boxes1 p span,
+.color_boxes2 p span {
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  display: inline-block;
+  border: 1px solid gray;
+  border: none;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.color_boxes1 .checkin span {
+  background-color: #ffb74d;
+}
+
+.color_boxes1 .confirmed span {
+  background-color: #9ccc65;
+}
+
+.color_boxes2 .arrived span {
+  background-color: #40c4ff;
+}
+
+.color_boxes2 .checkout span {
+  background-color: #bdbdbd;
+}
